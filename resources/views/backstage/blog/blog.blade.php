@@ -7,6 +7,9 @@
         <section class="news" id="news">
             <div class="container">
                 <p class="my-5 text-white ">最新消息</p>
+                <div class="function-area">
+                    <a class="create-msg" href="/blog-create">新增貼文</a>
+                </div>
                 <div class="contents">
                     <div class="tabs ">
                         <div class="tab">南瀛天文教育園區</div>
@@ -21,7 +24,7 @@
                                         <span class="badge badge-secondary ">{{$item->title}}</span>
                                     </div>
                                     <a href="">
-                                        <p class="mx-2 mb-1 text-left text-black-50">{{$item->text}}</p>
+                                        <p class="mx-2 mb-1 text-left text-black-50">{{$item->content}}</p>
                                     </a>
                                 </div>
                             </div>

@@ -9,12 +9,24 @@ class FrontController extends Controller
 {
     public function index() {
 
-        return view('backstage.blod.index-create');
-    }
-    public function news() {
-        
-        $articles = DB::table('articles')->get();
+        $articles = DB::table('articles')->get(); // 到 articles 撈資料
 
-        return view('backstage.blod.index-news', compact('articles'));
+        return view('backstage.blog.blog', compact('articles'));
+    }
+
+    public function create() {
+
+        return view('backstage.blog.blog-create');
+    }
+
+    public function store(Request $request) {
+
+        DB::table('articles')->insert([
+            'title' => $request->title,
+            'content' => $request->content,
+            "created_at" =>  \Carbon\Carbon::now(),
+            "updated_at" => \Carbon\Carbon::now(),
+        ]);
+        return redirect('/blog');
     }
 }
