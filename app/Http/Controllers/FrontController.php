@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Article;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -20,12 +21,18 @@ class FrontController extends Controller
     }
 
     public function store(Request $request) {
+        // 直接用DB操控資料庫
+        // DB::table('articles')->insert([
+        //     'title' => $request->title,
+        //     'content' => $request->content,
+        //     "created_at" =>  \Carbon\Carbon::now(),
+        //     "updated_at" => \Carbon\Carbon::now(),
+        // ]);
 
-        DB::table('articles')->insert([
+        // 用 model 來操控資料庫
+        Article::create([
             'title' => $request->title,
             'content' => $request->content,
-            "created_at" =>  \Carbon\Carbon::now(),
-            "updated_at" => \Carbon\Carbon::now(),
         ]);
         return redirect('/blog');
     }
