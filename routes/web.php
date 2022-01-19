@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// 前台 (不須登入)
+// Route::get('/', 'FrontController@index');
+Route::get('/front.index', function (){
+    return view('front.index');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
