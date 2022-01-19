@@ -71,12 +71,11 @@
     @yield('main')
 
   </main>
-
   <footer>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="../group/img/logo.png" width="50px" height="50px" alt="">
+          <img src="{{asset('img/logo.png')}}" width="50px" height="50px" alt="">
         </a>
         <div class=" navbar-collapse ">
           <ul class="navbar-nav ml-auto my-2 navbar-nav-scroll">

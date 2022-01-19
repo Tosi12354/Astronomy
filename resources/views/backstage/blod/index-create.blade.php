@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{asset('css/index-create.css')}}">
 @endsection
 @section('main')
-    <!-- 最新消息 -->
+    <!-- 新增消息 -->
     <section class="article">
       <div class="container">
         <form action="" method="POST">
@@ -12,10 +12,10 @@
             <label for="">輸入標題</label>
             <input type="text" id="title" name="title" value="">
           </div>
-          <div class="row">
+          {{-- <div class="row">
             <label for="">文章作者</label>
             <input type="text" id="auther" name="auther" value="">
-          </div>
+          </div> --}}
           <div class="row custom">
             <label for="">輸入文章內容</label>
             <textarea name="content" id="content" cols="30" rows="15">
