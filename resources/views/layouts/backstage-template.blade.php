@@ -25,41 +25,41 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <h3 class="logo"><img src="{{asset('img/logo.png')}}" alt="" width="50px"> <span>一起看星星</span></h3>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <h3 class="logo"><img src="{{asset('img/logo.png')}}" alt="" width="50px"> <span>一起看星星</span></h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-            <li class="nav-item ">
-              <a class="nav-link" href="/blog">最新消息</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">關於我們</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">觀星地點</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">天文情報</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">天文盤資訊</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">贊助我們<i class="far fa-star"></i></a>
-            </li>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog">最新消息</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">關於我們</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">觀星地點</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">天文情報</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">天文盤資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">贊助我們<i class="far fa-star"></i></a>
+              </li>
 
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   </header>
 
   <main>

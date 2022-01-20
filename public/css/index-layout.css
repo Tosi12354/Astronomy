@@ -13,6 +13,7 @@ body{
 
 nav {
     background-color:  #181717;
+    opacity: 80%;
 }
 
 footer nav {
@@ -20,7 +21,6 @@ footer nav {
 }
 
 .logo {
-    color: wheat;
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 600;

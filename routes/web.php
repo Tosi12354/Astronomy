@@ -25,7 +25,7 @@ Route::post('/blog/update/{id}', 'BlogController@update'); // 更新資料
 Route::get('/blog/delete/{id}', 'BlogController@delete'); // 刪除資料
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.index');
 });
 
 Auth::routes();
