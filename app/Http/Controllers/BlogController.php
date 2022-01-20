@@ -11,7 +11,7 @@ class BlogController extends Controller
     // 最新消息
     public function index() {
 
-        $articles = DB::table('articles')->paginate(10); // 到 articles 撈資料並做分頁
+        $articles = DB::table('articles')->paginate(5); // 到 articles 撈資料並做分頁
         return view('backstage.blog.blog', compact('articles'));
     }
     // 新增文章
