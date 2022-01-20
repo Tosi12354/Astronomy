@@ -34,8 +34,7 @@
                             </div>
                         </div>
                     @endforeach
-
-                    <nav class="page active" aria-label="Page navigation example">
+                    {{-- <nav class="page active" aria-label="Page navigation example">
                         <ul class="pagination  justify-content-center">
                             <li class="page-item">
                                 <a class="page-link" href="#" aria-label="Previous">
@@ -57,8 +56,9 @@
                                 </a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> --}}
                 </div>
+                {{$articles->links("pagination::bootstrap-4")}}
             </div>
             <div class="container">
                 <div class="row my-5">
