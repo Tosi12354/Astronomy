@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
             <li class="nav-item ">
-              <a class="nav-link" href="index-news.html">最新消息</a>
+              <a class="nav-link" href="/blog">最新消息</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index-about.html">關於我們</a>
@@ -51,9 +51,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">天文盤資訊</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">會員登入</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">贊助我們<i class="far fa-star"></i></a>

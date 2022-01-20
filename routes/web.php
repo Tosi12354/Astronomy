@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 // 前台 (不須登入)
+
+// 後台資料 (需登入)
 Route::get('/blog', 'BlogController@index'); // 最新消息
 Route::get('/blog/create', 'BlogController@create'); // 新增文章
 Route::post('/blog/store', 'BlogController@store'); // 文章儲存
