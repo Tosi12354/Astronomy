@@ -8,7 +8,7 @@
             <div class="container">
                 <p class="my-5 text-white ">最新消息</p>
                 <div class="function-area">
-                    <a class="create-msg" href="/blog-create">新增貼文</a>
+                    <a class="create-msg" href="/blog/create">新增貼文</a>
                 </div>
                 <div class="contents">
                     <div class="tabs ">
@@ -23,9 +23,13 @@
                                         <span>{{substr($item->created_at, 0, 10)}}</span>
                                         <span class="badge badge-secondary ">{{$item->title}}</span>
                                     </div>
-                                    <a href="">
+                                    <div href="">
                                         <p class="mx-2 mb-1 text-left text-black-50">{{$item->content}}</p>
-                                    </a>
+                                    </div>
+                                    <div>
+                                        <a href="/blog/edit/{{$item->id}}" class="edit">編輯</a>
+                                        <a href="/blog/delete/{{$item->id}}" class="delete">刪除</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
