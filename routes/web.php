@@ -28,7 +28,7 @@ Route::prefix('/blog')->middleware(['auth'])->group(function(){
 Route::get('/trade', 'FrontController@trade'); // 頁面跳轉
 
 Route::get('/create', 'FrontController@create'); // 填資料
-Route::post('/store', 'FrontController@store');
+Route::post('/store', 'FrontController@store'); // 
 
 Route::get('/', function () {
     return view('front.index');
