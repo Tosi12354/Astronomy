@@ -25,7 +25,10 @@ Route::prefix('/blog')->middleware(['auth'])->group(function(){
     Route::get('/delete/{id}', 'BlogController@delete'); // 刪除資料
 });
 
-Route::get('/trade', 'FrontController@trade');
+Route::get('/trade', 'FrontController@trade'); // 頁面跳轉
+
+Route::get('/create', 'FrontController@create'); // 填資料
+Route::post('/store', 'FrontController@store');
 
 Route::get('/', function () {
     return view('front.index');

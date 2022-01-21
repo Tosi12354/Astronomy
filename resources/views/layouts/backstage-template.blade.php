@@ -53,7 +53,7 @@
                 <a class="nav-link" href="#">天文盤資訊</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">贊助我們<i class="far fa-star"></i></a>
+                <a class="nav-link" href="/create">贊助我們<i class="far fa-star"></i></a>
               </li>
 
             </ul>
