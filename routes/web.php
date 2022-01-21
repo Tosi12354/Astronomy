@@ -25,6 +25,7 @@ Route::prefix('/blog')->middleware(['auth'])->group(function(){
     Route::get('/delete/{id}', 'BlogController@delete'); // 刪除資料
 });
 
+Route::get('/trade', 'FrontController@trade');
 
 Route::get('/', function () {
     return view('front.index');
