@@ -72,6 +72,11 @@
     padding: 15px 0 0 0;
 }
 
+.function-area{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .function-area .create-msg{
     text-decoration: none;
     color: #fff;

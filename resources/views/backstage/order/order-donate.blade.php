@@ -35,6 +35,11 @@
                     <button type="submit">贊助</button>
                     <a href="/" class="delete">取消</a>
                 </div>
+                @If (Auth::check())
+                <div class="function-area">
+                    <a class="create-msg" href="/data">贊助者資料</a>
+                </div>
+                @endif
             </form>
         </div>
     </section>

@@ -48,3 +48,13 @@
     padding: 5px;
 }
 
+.article form .function-area{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article form .create-msg{
+    text-decoration: none;
+    color: #000;
+}
+

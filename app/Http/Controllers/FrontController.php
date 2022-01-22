@@ -2,15 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Article;
 use App\Order;
-use GuzzleHttp\Promise\Create;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class FrontController extends Controller
 {
+
+    public function data(){
+
+        $orders = DB::table('orders')->get();
+        return view('backstage.order.order-donate-data', compact('orders'));
+    }
+
     public function create()
     {
 
