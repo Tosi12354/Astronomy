@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 // 前台 (不須登入)
 Route::get('/blog', 'BlogController@index'); // 最新消息
+Route::get('/map', 'FrontController@map'); // 地圖
+Route::get('/information', 'FrontController@information'); // 天文情報
+
 // 後台資料 (需登入)
 Route::prefix('/blog')->middleware(['auth'])->group(function(){
     Route::get('/create', 'BlogController@create'); // 新增文章

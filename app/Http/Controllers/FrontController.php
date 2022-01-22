@@ -8,16 +8,24 @@ use Illuminate\Support\Facades\DB;
 
 class FrontController extends Controller
 {
+    public function information()
+    {
+        return view('front.index-information');
+    }
 
-    public function data(){
+    public function map()
+    {
+        return view('front.index-map');
+    }
 
+    public function data()
+    {
         $orders = DB::table('orders')->get();
         return view('backstage.order.order-donate-data', compact('orders'));
     }
 
     public function create()
     {
-
         return view('backstage.order.order-donate');
     }
     public function store(Request $request)

@@ -44,13 +44,13 @@
                 <a class="nav-link" href="#">關於我們</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">觀星地點</a>
+                <a class="nav-link" href="/map">觀星地點</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">天文情報</a>
+                <a class="nav-link" href="/information">天文情報</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">天文盤資訊</a>
+                <a class="nav-link" href="#">聯絡我們</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/create">贊助我們<i class="far fa-star"></i></a>
