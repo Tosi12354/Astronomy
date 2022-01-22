@@ -4,7 +4,7 @@
 @endsection
 @section('main')
         <!-- 最新消息 -->
-        <section class="news" id="news">
+        <section class="news" id="news" style="width: 100%; height: 100vh;">
             <div class="container">
                 <p class="my-5 text-white ">最新消息</p>
                 @If (Auth::check())
@@ -40,50 +40,6 @@
                     @endforeach
                 </div>
                 {{$articles->links("pagination::bootstrap-4")}}
-            </div>
-            <div class="container">
-                <div class="row my-5">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img class="border-0" src="{{asset('img/img/image.jpg')}}" width="100%" alt="">
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                <a href="/" style="text-decoration: none;">
-                                    <h5 class="text-white" >Astronomy.</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img class="border-0" src="{{asset('img/img/image.jpg')}}" width="100%" alt="">
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                <a href="/blog" style="text-decoration: none;">
-                                    <h5 class="text-white">最新消息</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img class="border-0" src="{{asset('img/img/image.jpg')}}" width="100%" alt="">
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                <a href="#" style="text-decoration: none;">
-                                    <h5 class="text-white">關於我們</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img class="border-0" src="{{asset('img/img/image.jpg')}}" width="100%" alt="">
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                                <a href="#" style="text-decoration: none;">
-                                    <h5 class="text-white">全台觀星景點</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </main>

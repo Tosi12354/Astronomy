@@ -4,7 +4,7 @@
 @endsection
 @section('main')
     <!-- 產品2 -->
-    <section class="map">
+    <section class="map" style="width: 100%; height: 100vh;">
       <div class="container">
         <p class="text-white ">觀星地點</p>
         <div class="map-box">
