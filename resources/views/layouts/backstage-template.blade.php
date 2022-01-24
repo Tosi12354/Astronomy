@@ -25,7 +25,7 @@
 <body>
 
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
           <a class="navbar-brand" href="/">
             <h3 class="logo"><img src="{{asset('img/logo.png')}}" alt="" width="50px"> <span>一起看星星</span></h3>
