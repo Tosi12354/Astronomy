@@ -13,6 +13,11 @@ class FrontController extends Controller
         return view('front.index-information');
     }
 
+    public function season()
+    {
+        return view('front.index-season');
+    }
+
     public function map()
     {
         return view('front.index-map');

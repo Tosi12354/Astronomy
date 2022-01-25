@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-image: url(../img/background.jpg);
+}
+
+
+.season {
+    cursor: pointer;
+    
+}
+
+
+.season .container p {
+    text-align: center;
+    font-size: 30px;
+}
+.season .container .contents{
+    width: 100%;
+}
+
+.season .container .contents .season-title .title{
+    width: 40%;
+    position: fixed;
+    color: wheat;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    height: 100vh;
+}
+@media (max-width:768px) {
+    .season .container .contents .season-title .title {
+        display: none;
+   }
+}
+
+
+.season .container .contents .season-title .title1{
+    top: 20%;
+    left: 20%;
+    
+
+}
+.season .container .contents .season-title .title2{
+    top: 20%;
+    left: 25%;
+
+}
+.season .container .contents .season-title .title3{
+    top: 20%;
+    left: 30%;
+
+}
+.season .container .contents .season-title .title4{
+    top: 20%;
+    left: 35%;
+
+}
+
+.season .container .contents .season-info{
+    width: 60%;
+    position: relative;
+    margin: 0 0 0 auto;
+}
+@media (max-width:768px) {
+    .season .container .contents .season-info {
+        width: 100%;
+   }
+}
+.season .container .contents .season-info .season-box{
+    width: 100%;
+    
+}
+.season .container .contents .season-info .season-box h4{
+    margin: 10px 0;
+}
+
+.season .container .contents .season-info .season-box span{
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+

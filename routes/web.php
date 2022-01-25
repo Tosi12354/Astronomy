@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/blog', 'BlogController@index'); // 最新消息
 Route::get('/map', 'FrontController@map'); // 地圖
 Route::get('/information', 'FrontController@information'); // 天文情報
+Route::get('/season', 'FrontController@season'); // 四季星象
 
 // 後台資料 (需登入)
 Route::prefix('/blog')->middleware(['auth'])->group(function(){

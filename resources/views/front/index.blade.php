@@ -49,7 +49,7 @@
               <a class="nav-link" href="/information">天文情報</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">聯絡我們</a>
+              <a class="nav-link" href="/season">四季星象</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/create">贊助我們<i class="far fa-star"></i></a>
