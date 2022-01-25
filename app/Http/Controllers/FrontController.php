@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\DB;
 
 class FrontController extends Controller
 {
+    public function about()
+    {
+        return view('front.index-about');
+    }
+
     public function information()
     {
         return view('front.index-information');
