@@ -4,7 +4,7 @@
 @endsection
 @section('main')
         <!-- 最新消息 -->
-        <section class="news" id="news" style="width: 100%; height: 100vh;">
+        <section class="news" id="news" style="width: 100%;">
             <div class="container">
                 <p class="my-5 text-white ">最新消息</p>
                 @If (Auth::check())
