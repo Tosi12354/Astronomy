@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center;
     padding: 5%;
-    
+
 }
 .all-path:hover {
     fill: blue;
@@ -29,7 +29,7 @@
 
 .map .container .map-box .guide-box{
     width: 40%;
-    position: relative; 
+    position: relative;
 }
 .map .container .map-box .guide-box .map-tabs{
     width: 100%;
@@ -53,6 +53,21 @@
     display: none;
 }
 
+.map .container .map-box .guide-box #Kaohsiung{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.map .container .map-box .guide-box #Pingtung{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.map .container .map-box .guide-box #Tainan{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
 .map .container .map-box .guide-box #Yilan{
     position: absolute;
     top: 0%;
@@ -63,15 +78,30 @@
     top: -6%;
     left: 80%;
 }
+.map .container .map-box .guide-box #Miaoli{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
 .map .container .map-box .guide-box #Taipei{
     position: absolute;
     top: -8%;
+    left: 60%;
+}
+.map .container .map-box .guide-box #NewTaipei{
+    position: absolute;
+    top: -2%;
     left: 60%;
 }
 .map .container .map-box .guide-box #Chiayi{
     position: absolute;
     top: 30%;
     left: 25%;
+}
+.map .container .map-box .guide-box #Hualien{
+    position: absolute;
+    top: 15%;
+    left: 70%;
 }
 .map .container .map-box .guide-box #Nantou{
     position: absolute;
@@ -99,7 +129,7 @@
 /* contents區塊 */
 .map .container .map-box .contents {
     width: 60%;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
 @media (max-width:768px){
     .map .container .map-box {
@@ -107,11 +137,11 @@
     }
     .map .container .map-box .guide-box{
         width: 100%;
-        
+
     }
     .map .container .map-box .contents {
         width: 100%;
-            
+
     }
 }
 
@@ -127,7 +157,7 @@
 .map .container .map-box .contents .content .card{
     color: white;
     background-color: #809A97;
-    
+
 }
 
 .map .container .map-box .contents .content .card p {

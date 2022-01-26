@@ -4,7 +4,7 @@
 @endsection
 @section('main')
     <!-- 產品2 -->
-    <section class="map" style="width: 100%; height: 100vh;">
+    <section class="map">
       <div class="container">
         <p class="text-white ">觀星地點</p>
         <div class="map-box">
@@ -13,17 +13,17 @@
               <svg xmlns="http://www.w3.org/2000/svg" baseprofile="tiny" fill="#7c7c7c" stroke="#ffffff"
                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 1295"
                 width="100%">
-                <path class="all-path"
+                <path class="all-path tab" data-type="TWN1156"
                   d="M739.8 857.3l1.9 5.8-3 5-5.6 2.4-1.4 3.2 1 4 5.6 3.6 6.3 5.2 2.8 7.6 0.3 2.5-15.6 3.8-6.4 4.1-4 3.9-7.8 5.1-0.9 5.7 2.3 6-2.7 4.9-7.4 4-0.8 6.9 2.1 9.9-3 13.2-0.1 11.2-4.3 5.9-8.5 7.2-2.3 9.8 1.3 8.1 3 4.6 6.2 6.4 1.2 4.9-3.9 0.5-5.2-0.9-4.3 0.2-8.5 6.7-5.9-5.5-7.6-8.9-7.2 1.8-6.6 5.9-13.1-6.6-9.4 4.5-6.4 7.1-8 2.8-17.8-1.1-1.7 4.9-1.3 7.2-2.6 7.9 0.5 7-0.1 9.5-5.7 21.2-0.1 7.1 2.7 7.5 0.4 8.2-8.1 20.5-2.6-1.1-1.6 0.1-1.8 0.7-2.2 0-13-10.2-12.1-17.1 12.7 15.4-1.5-7.4-3.8-7.2-5.3-6-9-8.4-3.5-4.2-1.6-4.8 2.2-4.6 1.1-4.1-1.5-5.8-2.7-5.6-4.9-7.7-4.6-10.2-1-4.5 0.1-3 1.5-3.6 0.3-2.4-0.5-1.2-2.7-2.3-0.5-2.3-2.9-4.9-0.7-2-2.1-13.6 6.1-3.7 0.2 0.5 3.9 8.6 4.8 2.5 15.7 2.2 8.2-0.9 8.4 1 4.2-1.5 3.5-2.6 6.5-2.6 6.3-4.4 2.4-5.5 3-5.2 5.3-7.1 6.1-6.4 6.5-5.4 7.4-7.2 6.5-8.4 10-17 10.4-15.1 2.3-6.6-1-6.7-1.4-4.5 0.1-5 3.6-3.5 6.9 0.7 5.8-0.6 12.3-7.3 4.5-5.4 7.9-6.1 7.7-4.3 4.2-5 3.6-6.8 8.5-6.8 18.5-9.4 4.3 1 5.8 2.2 4.2 5.9 0.7 2z"
                   id="TWN1156" name="Kaohsiung City">
                   <title>高雄</title>
                 </path>
-                <path class="all-path"
+                <path class="all-path tab" data-type="TWN1158"
                   d="M569.4 1166l2 2.9-0.3 1-2.7 1.8-5 4.3-0.9-3.3 1.4-2.7 2.8-3.6 2 0 0.7-0.4z m126.7-143.3l3.5 6.6 0.7 4.9 5.4 1.3 5.5 3.6-2.8 13.8-0.1 5.2-2 5-9.8 4.1-4.8 2.7-7.6 1.6-5.4 4.5-2.4 6.6-3.7 6.6-3 7.5-0.8 14.7 1.2 6.5 2 6.1 1.1 7.1 0 5.4 2.6 5 4.6 5.6-2.5 3.8-5.3 3.2-2.1 3.9-0.5 4.5 2.7 3.9 3.4 1.7 3.1 4.4-0.1 5.7 0.6 6.1 3.2 5.9 4.6 4.9 10.2 4.7 4.5-0.3 0.9 51.6-1.6 7.3-2.5 6-3.4 2.5-4 3.7 0.1 8.3 1.5 9.2-0.4 5.9-4.5-6.8-6.8-5.2-7.8-3.5-8-1.9-0.3 6.6-2.3 2.3-3.4-0.8-3.7-3.1-0.2-2.4 1.3-7-5.5-9.2-0.5-2.4 0.1-2.1 0.4-3.2 0-10.8 0.5-3.1 2.5-3.6 0.5-3-19.9-51.6-1.6-2.9-5.5-6.8-4.4-9.9-2-2.8-8.2-6.5-5.4-3-0.9-3.7-0.7-1.3-4.4-2.9-10-4.8-4.5-3.1-4.8-4.2-2.6-1.6 8.1-20.5-0.4-8.2-2.7-7.5 0.1-7.1 5.7-21.2 0.1-9.5-0.5-7 2.6-7.9 1.3-7.2 1.7-4.9 17.8 1.1 8-2.8 6.4-7.1 9.4-4.5 13.1 6.6 6.6-5.9 7.2-1.8 7.6 8.9 5.9 5.5 8.5-6.7 4.3-0.2 5.2 0.9z"
                   id="TWN1158" name="Pingtung">
                   <title>屏東</title>
                 </path>
-                <path class="all-path"
+                <path class="all-path tab" data-type="TWN1160"
                   d="M483.8 968.3l-0.6 1.2-2.3-2-1.7-4.2 0.3-1.3 0.7 0 0.9 1.2 0.7 1.9 2.1 2.2-0.1 1z m0.5-27.6l-2.9 6.8 3.9-13.3 0.6 0.1-1.6 6.4z m3.5-12.8l3.5-9.9 0.5-0.1 0.2 1.9-4.2 8.1z m6.3-22.5l-0.4 2.4 0.6-10.6 0.5 0.2-0.7 8z m149.5 11.5l-2.3 6.6-10.4 15.1-10 17-6.5 8.4-7.4 7.2-6.5 5.4-6.1 6.4-5.3 7.1-3 5.2-2.4 5.5-6.3 4.4-6.5 2.6-3.5 2.6-4.2 1.5-8.4-1-8.2 0.9-15.7-2.2-4.8-2.5-3.9-8.6-0.2-0.5-6.1 3.7-1-6.3-1.8-3.6-3.9-3.9 4.7-3.4 2.7-6.1-1.1-5.2-6.3-0.9-1.2 1.8-1.1 3.4-1.8 2.7-3.3-0.1-1.3-2.3 0.5-7-0.8-2.4-4.1-1.8-2.3 2.1-1.8 2.9-2.8 0.7-2.9-2.5-0.7-3.5 0.7-3.4 1.1-2.3 3-1.6 3.7-0.5 3.1-1 1-3-1.4-1.5-9.4-2.4 0-1.9 7.9-0.1-0.8-2.6-4.3-3.7-2.8-3.2 0.7-4 2.5-1.5 2.7-0.9 1.4-2.5-0.8-3.9-1.4-3.2 0.9-3 1.4-3.7 2.3-2.6-0.5-2.3 0.5-2.3 3.3-9 1.6-1.7 2.6-0.6-3.7-2.5 1.6-4.1 5.2 2 8.9 1.3 7.2 1.8 6.2-2.8 2.5-4.9 5.8-3.6 6.6-5.1 4.7-4.8 6.1-4.6 7.8-3.5 15.2-2.8 8.5-0.5 7.2 2.4 4 2.4 2.1 4.2 1.7 5.1 9.9 10.1 1 7.5-1.8 14.2 1.6 4.6 4.5 3.5 3.8 0 5.3-2.4 5-0.6 3.7 1.1 8.4 1z"
                   id="TWN1160" name="Tainan City">
                   <title>台南</title>
@@ -48,7 +48,7 @@
                   id="TWN1164" name="Keelung City">
                   <title>基隆</title>
                 </path>
-                <path class="all-path"
+                <path class="all-path tab" data-type="TWN1165"
                   d="M724.3 489l4.4 11.1 3.9 4.4 6 4.5 12.1 5.7 3.9 3.4 0.7 5.2-0.3 3.9-0.8 3.5-1 3.1 1 2.9 1 4-1.3 4.6-0.9 5.1 4.1 1 7.7-2.1 6.8-0.5 4.8 0.5 12.5-3.2 5 4 1.3 4.4 3.3 3.3 4.6 7.8 0.6 4.9-3.7 2.6-1.8 5.6-4.9 2-5.3-0.1-4.2 3-4.6 4.4-5.9 3.2-11.6 9.2-6.8 2.9-8.9 4.7-5.4-2.1-5-5.6-6-2.4-9.9-0.8-5.5 3.3-0.9 7.4-5.2 2.8-12.1 0.7-11.6-6.7-6.6-1.2-7.3-3.6-15.1-11.1-6.3-5.5-4.7-5-9.2-14.3 7.2-8.1 1.9-4 0.9-6.6 2.2-5.6 5.9-10.4 1.6-6.3 1.5-2.7 6.8-2 1.9-2.1 1.1-2.6 1.4-2.5 4.2-4.3 4.6-3.4 5.6-1.5 7.1 1.3-0.9-5.4 2.7-3.7 3.7-3.8 1.9-5.7 0.8-1.9 3.6-1.8 0.3-1.3 6.9 2.7 4.3 2.6 2.7 3.8 4.4 1.7 4.6-1.1 0.2-0.2z"
                   id="TWN1165" name="Miaoli">
                   <title>苗栗</title>
@@ -58,7 +58,7 @@
                   id="TWN1166" name="Taipei City">
                   <title>台北</title>
                 </path>
-                <path class="all-path"
+                <path class="all-path tab" data-type="TWN1167"
                   d="M915.9 357.2l-4.4 2.9-7.2 3.1-3.2 2.2 0.6 2.9 2.9 3.7 1.7 3.5 2.8 3.5 3.7 3.4 3 2.2 10.6 4.4 5.1 0.6 4-1.5 2.5-1.8 0.4-2.5-3.7-3.9-0.2-3 0.3-11.9 34.6 8.4 3.2 2-1.6 3.7-0.4 2.9 0.7 5.2 2.4 8.7 2.6 4.1 2.2 0.9 7-1 3.6 0.4 4.2 1.1 3.7 1.9 2 2.5-8.7 4.3-0.8-1.1-3.3-1.9-5.9 1.3-8.4 4.4-3.7 2.5-11.2 2.3-1.4 2.9 2.5 3.6-1.6 3.8-4.6 2.9-3.5 1.2-3.7 2-3.3 4.1-3.1 5-5 3.6-6.2 1.9-13.5 8.1-13 5.3-3.8 2.3-4.7 4-2 4.9 0.2 4.2 1 3.2 0.4 2-3.9 2.8-6.6 3.2-5 3.5-3.8 3.3-4.9 1.8-5.7 1.6-2.5-5.4-8.9-8.5-1.4-5.6-0.8-5.2 3.1-3.7 1.5-5.3-8.5-12.3-5-2-7.4 0.4-5.1-2.9 1.3-6.7-1-5.1-5.4-5.1-1-5.1 1-5.8-0.2-6.2 3.7-4 13.1-3.9 3.3-3.4 1-4.2-0.5-4.1-5.1-7.5-4.2-2.2-4.1-1-3.2-2.8-4.7-3.1-6.3-3-4.2-4.6 11.2-2.1 4.8-1.8 6.1-5.2 1.9-0.9 2.2-0.4 3.1 0 3.5 1.1 1.9 2.7 1.2 2.7 1.5 1.6 3.5-1.4-3.6-5.7-5.8-5.9-3.1-1.9 0.9-2.7 1.8-1.5 1.9-0.9 0.8-1 2.1-5.1 3.2-5.9 6.6-5.9 9.6-4.9 11-2.5 10.8 1.2 4.5 3.4 10 14.2 3.6 7.4 1.2-0.5 2.7-0.7 3-0.4 2.2 0.6-0.1 0.9-1.1 1.3-1 1.8 0.1 2.2 1.1 1.2 2.3 1.7z m-18.5 56l7.6-9.6 2-4.3-3.8-3.2-4.6-2.6-0.1-5.1 1.6-6.6-1.6-4.4-3.9-3.5-2.5-10-3.2-6.8-0.4-3.5 0.5-3.6-2.1-2.2-3.8-1.2-4 2-2.9 2.5-10.9 6.4-3.6 4-2.1 4.6-1.8 2.4-1.6 3 3.8 4.2 5.7 5.5 1.2 6.3-1.5 7.4 3.9 6.7 5.8 4.6 3.8 4.3 3.7 3.3 4.8 1 5.8 0.1 4.2-1.7z"
                   id="TWN1167" name="New Taipei City">
                   <title>新北</title>
@@ -83,7 +83,7 @@
                   id="TWN1171" name="Chiayi City">
                   <title>嘉義市</title>
                 </path>
-                <path class="all-path"
+                <path class="all-path tab" data-type="TWN1172"
                   d="M935.4 601.5l0.6 0.8 1.6 2.9 0.2 1.1-1.4 2.4-5.8 5.7-6.2 8.6-4.7 3.7-1.4 2 0.7 2.1-0.9 1.5-6.6 5.1-2.5 2.4-2.8 6-2.9 12.2-7.4 10.9-1.5 4.4 0.2 4.7 1.8 5.2 1.5 2.3 1.3 1 0.8 1.4 0.1 3.2-1.1 3.6-3.7 5.8-0.7 3.5-0.4 6.4-3.2 16.3-6.4 17-8 40.1-4.8 9.8-11 64.1-3.5-1-10.8 5.2-3.9 5.4 1.7 6.9 0.6 6.9-3.6 6.9-3.4 5.2-2.7 6.6-2.4 8.4-3.7 7.7-4.8 13.2-3.1 6.1 0.1 6.7-0.9 6.2-6.5 3.7-8.2-1.1-11.7-9.7-9.2-16-5.7-1.5-6.3-0.9-5-4.8-6.1-2.9-7.8-2.8-5-8.1-1.2-7.4-0.3-2.5-2.8-7.6-6.3-5.2-5.6-3.6-1-4 1.4-3.2 5.6-2.4 3-5-1.9-5.8 6-3.5 3.1-2.8-1.7-6.2 1.5-2.7 1.5-4 5.2-3.9 7.4-1.6 7.4-0.3 5.3-4.7 1.3-8.5 4-5.2 7.6-2.8 4.5-3.1 1.6-5.1 3.2-12.6 1.2-8.4-0.9-7.2-1.2-5.4-3.2-4.1-2.1-4 5.7-9.4 0.2-3.7 2.5-7 3.9-8.5 3-8.8 1.6-9.9 0.6-7.6-1.8-4.5-2-3.3 2.3-7.6 5.1-10.7 8-10.4 0.3-3.9-1.5-4.5-5.2-3.4-2.9-3.1-0.2-9.9 3.7-2.9 6.6-2.2 5.2-2.4-0.2-3.7-1.4-6.2 2.8-2 1.2-2.1 3.4-1.7 3.1-3.8 1.3-5.1 3-5 7.5-4.7 2.4-6.2 0.4-4.2 4.7-4.9 2.5 2.1 6.5 3.1 15 3.8 8.3 3.2 6.5 0 4.9-4.5 2.4-6 3.8-0.9 18.5 11.1 11.1 1.7 1.1 0z"
                   id="TWN1172" name="Hualien">
                   <title>花蓮</title>
@@ -131,6 +131,27 @@
                 </circle>
               </svg>
             </div>
+            <div class="guide-content guide-content-none" data-type="TWN1156" id="Kaohsiung">
+              <div class="card">
+                <img class="" src="{{asset('img/map/高雄都會公園.jpg')}}" data-type="TWN1156" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1156">高雄 都會公園</h5>
+              </div>
+              <p class="mx-2 mb-1" data-type="TWN1156"><i class="fad fa-star-exclamation" data-type="TWN1156"></i></p>
+            </div>
+            <div class="guide-content guide-content-none" data-type="TWN1158" id="Pingtung">
+              <div class="card">
+                <img class="" src="{{asset('img/map/墾丁 貓鼻頭.jpg')}}" data-type="TWN1158" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1158">墾丁 貓鼻頭</h5>
+              </div>
+              <p class="mx-2 mb-1" data-type="TWN1158"><i class="fad fa-star-exclamation" data-type="TWN1158"></i></p>
+            </div>
+            <div class="guide-content guide-content-none" data-type="TWN1160" id="Tainan">
+              <div class="card">
+                <img class="" src="{{asset('img/map/台南 七股海堤.jpg')}}" data-type="TWN1160" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1160">台南 七股海提</h5>
+              </div>
+              <p class="mx-2 mb-1" data-type="TWN1158"><i class="fad fa-star-exclamation" data-type="TWN1160"></i></p>
+            </div>
             <div class="guide-content guide-content-none" data-type="TWN1163" id="Yilan">
               <div class="card">
                 <img class="" src="{{asset('img/map/宜蘭太平山-1.svg')}}" data-type="TWN1163" width="100%" alt="">
@@ -143,111 +164,187 @@
                 <img class="border-0" src="{{asset('img/map/基隆大武崙砲台.svg')}}" data-type="TWN1164" width="100%" alt="">
                 <h5 class="text-center my-1" data-type="TWN1164">基隆 大武崙</h5>
               </div>
-              <p class="mx-2 mb-1" data-type="TWN1164"><i class="fad fa-star-exclamation"></i></p>
+              <p class="mx-2 mb-1" data-type="TWN1164"><i class="fad fa-star-exclamation" data-type="TWN1164"></i></p>
+            </div>
+            <div class="guide-content guide-content-none" data-type="TWN1165" id="Miaoli">
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/苗栗 觀霧森林遊樂區.jpg')}}" data-type="TWN1165" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1165">苗栗 觀霧林區</h5>
+              </div>
+              <p class="mx-2 mb-1" data-type="TWN1165"><i class="fad fa-star-exclamation" data-type="TWN1165"></i></p>
             </div>
             <div class="guide-content guide-content-none" data-type="TWN1166" id="Taipei">
               <div class="card ">
-                <img class="border-0" src="{{asset('img/map/台北市陽明山擎天崗.svg')}}" data-type="TWN1166"  width="100%" alt="">
-                <h5 class="text-center my-1" data-type="TWN1166" >台北 擎天崗</h5>
+                <img class="border-0" src="{{asset('img/map/台北市陽明山擎天崗.svg')}}" data-type="TWN1166" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1166">台北 擎天崗</h5>
               </div>
-              <p class="mx-2 mb-1" data-type="TWN1166" ><i class="fad fa-star-exclamation"></i></p>
+              <p class="mx-2 mb-1" data-type="TWN1166"><i class="fad fa-star-exclamation" data-type="TWN1166"></i></p>
+            </div>
+            <div class="guide-content guide-content-none" data-type="TWN1167" id="NewTaipei">
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/新北 五分山氣象雷達站.jpg')}}" data-type="TWN1167" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1167">新北 五分山</h5>
+              </div>
+              <p class="mx-2 mb-1" data-type="TWN1167"><i class="fad fa-star-exclamation" data-type="TWN1167"></i></p>
             </div>
             <div class="guide-content guide-content-none" data-type="TWN1170" id="Chiayi">
               <div class="card ">
-                <img class="border-0" src="{{asset('img/map/嘉義縣阿里山-1.svg')}}"  data-type="TWN1170" width="100%" alt="">
+                <img class="border-0" src="{{asset('img/map/嘉義縣阿里山-1.svg')}}" data-type="TWN1170" width="100%" alt="">
                 <h5 class="text-center my-1" data-type="TWN1170">嘉義 阿里山</h5>
               </div>
-              <p class="mx-2 mb-1" data-type="TWN1170"><i class="fad fa-star-exclamation"></i></p>
+              <p class="mx-2 mb-1" data-type="TWN1170"><i class="fad fa-star-exclamation" data-type="TWN1170"></i></p>
+            </div>
+            <div class="guide-content guide-content-none" data-type="TWN1172" id="Hualien">
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/花蓮七星潭.jpg')}}" data-type="TWN1172" width="100%" alt="">
+                <h5 class="text-center my-1" data-type="TWN1172">花蓮 七星潭</h5>
+              </div>
+              <p class="mx-2 mb-1" data-type="TWN1172"><i class="fad fa-star-exclamation" data-type="TWN1172"></i></p>
             </div>
             <div class="guide-content guide-content-none" data-type="TWN1173" id="Nantou">
               <div class="card ">
                 <img class="border-0" src="{{asset('img/map/南投縣合歡山-1.svg')}}" data-type="TWN1173" width="100%" alt="">
                 <h5 class="text-center my-1" data-type="TWN1173">南投 合歡山</h5>
               </div>
-              <p class="mx-2 mb-1" data-type="TWN1173"><i class="fad fa-star-exclamation"></i></p>
+              <p class="mx-2 mb-1" data-type="TWN1173"><i class="fad fa-star-exclamation" data-type="TWN1173"></i></p>
             </div>
             <div class="guide-content guide-content-none" data-type="TWN1174" id="Taichung">
               <div class="card">
                 <img class="border-0" src="{{asset('img/map/台中都會公園-1.svg')}}" data-type="TWN1174" width="100%" alt="">
                 <h5 class="text-center my-1" data-type="TWN1174">台中 都會</h5>
               </div>
-              <p class="mx-2 mb-1" data-type="TWN1174"><i class="fad fa-star-exclamation"></i></p>
+              <p class="mx-2 mb-1" data-type="TWN1174"><i class="fad fa-star-exclamation" data-type="TWN1174"></i></p>
             </div>
             <div class="guide-content guide-content-none" data-type="TWN1177" id="Taitung">
               <div class="card">
                 <img class="border-0" src="{{asset('img/map/台東金剛大道.jpg')}}" data-type="TWN1177" width="100%" alt="">
                 <h5 class="text-center my-1" data-type="TWN1177">台東 海天線</h5>
               </div>
-              <p class="mx-2 mb-1" data-type="TWN1177"><i class="fad fa-star-exclamation"></i></p>
+              <p class="mx-2 mb-1" data-type="TWN1177"><i class="fad fa-star-exclamation" data-type="TWN1177" ></i></p>
             </div>
           </div>
           <div class="contents">
-            <div class="content content-none" data-type="TWN1163" >
-                <div class="card ">
-                  <img class="" src="{{asset('img/map/宜蘭太平山-1.svg')}}" width="100%" alt="">
-                  <h3 class="my-3 text-center">太平山國家森林遊樂區</h3>
-                  <p class="mx-2 mb-1 font-weight-light ">
-                    太平山國家森林遊樂區位處在中高海拔區，海拔近2千公尺。除了山林美景及日落晨曦所呈現的迷人景緻外，無光害的太平山在天氣狀況良好下，時而有雲海、銀河與流星同時出現的瑰麗美景。不管您是初學者，或是專業老手，除了來太平山欣賞日間的山林生態，也可一窺星空閃亮的秘密。
-                  </p>
-                </div>
+            <div class="content content-none" data-type="TWN1156">
+              <div class="card ">
+                <img class="" src="{{asset('img/map/高雄都會公園.jpg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">都會公園</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  高雄都會公園，位於高雄市橋頭區與楠梓區的交界處，擁有廣闊平整的大草原及森林綠地，為臺灣面積最大的都市公園，也為高雄地區民眾散步休憩的好去處。園內的地標「金雞日晷」，則可以觀察太陽角度，和日正中天的天象。入夜後，因光害較少，適合初學者認識星空，學習辨認星座。
+                </p>
+              </div>
+            </div>
+            <div class="content content-none" data-type="TWN1158">
+              <div class="card ">
+                <img class="" src="{{asset('img/map/墾丁 貓鼻頭.jpg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">貓鼻頭公園</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  貓鼻頭公園位於台灣最南端的恆春半島，一直以來都是十分受到歡迎的觀星地，貓鼻頭觀景台的地理位置不只遠離光害，還能遠遠眺望許多恆春的知名景點，因此十分受到觀星族的喜愛。每年的初夏，墾到國家公園管理處也會舉辦南十字觀星之旅，活動期間，你可以認識南十字星和其他星座，熱愛天文學的話必定會愛上！
+                </p>
+              </div>
+            </div>
+            <div class="content content-none" data-type="TWN1160">
+              <div class="card ">
+                <img class="" src="{{asset('img/map/台南 七股海堤.jpg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">七股海堤</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  七股海堤，位於縣道173線的終點，其東面是黑面琵鷺棲息的潮間帶溼地，西側是新浮崙沙洲與臺灣海峽，再往南行則是曾文溪出海口，因此能遙望沙洲風光、觀看黑面琵鷺，以及欣賞落日景致。此處以魚塭為業，光害較少，且長長的海堤一望無盡，適合進行觀星活動。
+                </p>
+              </div>
+            </div>
+            <div class="content content-none" data-type="TWN1163">
+              <div class="card ">
+                <img class="" src="{{asset('img/map/宜蘭太平山-1.svg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">太平山國家森林遊樂區</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  太平山國家森林遊樂區位處在中高海拔區，海拔近2千公尺。除了山林美景及日落晨曦所呈現的迷人景緻外，無光害的太平山在天氣狀況良好下，時而有雲海、銀河與流星同時出現的瑰麗美景。不管您是初學者，或是專業老手，除了來太平山欣賞日間的山林生態，也可一窺星空閃亮的秘密。
+                </p>
+              </div>
 
             </div>
             <div class="content content-none" data-type="TWN1164">
-                <div class="card ">
-                  <img class="border-0" src="{{asset('img/map/基隆大武崙砲台.svg')}}" width="100%" alt="">
-                  <h3 class="my-3 text-center ">大武崙砲台</h3>
-                  <p class="mx-2 mb-1 font-weight-light ">
-                    大武崙砲台離基隆市區約半小時車程，因位處高地，市區夜景一覽無遺，在晴朗無雲的天氣，只要在停車場抬頭一看便能看到滿天星斗，還有月光照映海面美景，遠眺瑞芳山區可見金光閃閃的九份，是很多攝影愛好者、追星族的秘境，很適合想觀星的入門者參加。
-                  </p>
-                </div>
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/基隆大武崙砲台.svg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center ">大武崙砲台</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  大武崙砲台離基隆市區約半小時車程，因位處高地，市區夜景一覽無遺，在晴朗無雲的天氣，只要在停車場抬頭一看便能看到滿天星斗，還有月光照映海面美景，遠眺瑞芳山區可見金光閃閃的九份，是很多攝影愛好者、追星族的秘境，很適合想觀星的入門者參加。
+                </p>
+              </div>
+            </div>
+            <div class="content content-none" data-type="TWN1165">
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/苗栗 觀霧森林遊樂區.jpg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center ">觀霧森林遊樂區</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  觀霧森林遊樂區，位於新竹五峰鄉與苗栗泰安鄉的交界，因終年谷地經常瀰漫雲海、霧氣，故而得名。園區內視野遼闊，可觀賞日出、日落、山景、霧景、雨景、雲海以及春夏秋冬等自然景致。入夜後，觀霧也是熱門的觀星所在，只要抬頭仰望，滿天群星閃耀，讓人驚呼連連，難以忘懷。
+                </p>
+              </div>
             </div>
             <div class="content content-none" data-type="TWN1166">
-                <div class="card ">
-                  <img class="border-0" src="{{asset('img/map/台北市陽明山擎天崗.svg')}}" width="100%" alt="">
-                  <h3 class="my-3 text-center">陽明山擎天崗</h3>
-                  <p class="mx-2 mb-1 font-weight-light ">
-                    位於陽明山國家公園內的擎天崗，對於台北人來說是交通最為方便的觀星地點。海拔約770公尺，在觀星的同時擎天崗擁有一望無際、連綿的草原景觀，視野寬廣，白天可以來散步踏青、野餐郊遊，晚上因光害少，可以用肉眼盡情欣賞遼闊星空，是個非常適合觀星賞夜景的好去處。
-                  </p>
-                </div>
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/台北市陽明山擎天崗.svg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">陽明山擎天崗</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  位於陽明山國家公園內的擎天崗，對於台北人來說是交通最為方便的觀星地點。海拔約770公尺，在觀星的同時擎天崗擁有一望無際、連綿的草原景觀，視野寬廣，白天可以來散步踏青、野餐郊遊，晚上因光害少，可以用肉眼盡情欣賞遼闊星空，是個非常適合觀星賞夜景的好去處。
+                </p>
+              </div>
+            </div>
+            <div class="content content-none" data-type="TWN1167">
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/新北 五分山氣象雷達站.jpg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">五分山氣象雷達站</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  五分山，又名滴水大尖或粗坑口山，位於新北平溪與瑞芳間，鄰近基隆市。山頂視野廣闊，展望良好，可將東北角基隆和瑞芳的山海景致一覽無遺；氣象局於此設立五分山氣象雷達站，為五分山的明顯地標。由於地勢相對較高，光害也跟著減少，當晴朗夜晚時，是觀星的好地點。
+                </p>
+              </div>
             </div>
             <div class="content content-none" data-type="TWN1170">
-                <div class="card ">
-                  <img class="border-0" src="{{asset('img/map/嘉義縣阿里山-1.svg')}}" width="100%" alt="">
-                  <h3 class="my-3 text-center">阿里山小笠原觀景台</h3>
-                  <p class="mx-2 mb-1 font-weight-light">
-                    阿里山不只能看日出，位於阿里山國家森林遊樂區的小笠原山觀景平台，海拔2,488公尺，有360度環景視野，離都市光害，加上高海拔、少光害的特色，仰頭就能看到滿天星斗，彷彿置身在星際之中。若是搭配使用天文望遠鏡，則可看到更多行星，絕對是天文迷必去的口袋名單。
-                  </p>
-                </div>
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/嘉義縣阿里山-1.svg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">阿里山小笠原觀景台</h3>
+                <p class="mx-2 mb-1 font-weight-light">
+                  阿里山不只能看日出，位於阿里山國家森林遊樂區的小笠原山觀景平台，海拔2,488公尺，有360度環景視野，離都市光害，加上高海拔、少光害的特色，仰頭就能看到滿天星斗，彷彿置身在星際之中。若是搭配使用天文望遠鏡，則可看到更多行星，絕對是天文迷必去的口袋名單。
+                </p>
+              </div>
+            </div>
+            <div class="content content-none " data-type="TWN1172">
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/花蓮七星潭.jpg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">花蓮七星潭</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  喜歡看星星的朋友，七星潭是距離市區最近的觀星景點，面向太平洋這側的大海因為無光害，只要是晴朗的好天氣，用肉眼就可以看到銀河。也因為附近光害少、環境單純，我在海灘看星星的時候，不時還有許多螢火蟲飛過身邊，好浪漫。
+                </p>
+              </div>
             </div>
             <div class="content content-none " data-type="TWN1173">
-                <div class="card ">
-                  <img class="border-0" src="{{asset('img/map/南投縣合歡山-1.svg')}}" width="100%" alt="">
-                  <h3 class="my-3 text-center">合歡山</h3>
-                  <p class="mx-2 mb-1 font-weight-light ">
-                    合歡山部分區域於2019年8月被「國際暗天協會 IDA」選為國際暗空公園從「鳶峰停車場」到「小風口合歡山管理站」，以公路為中心往外各擴展500公尺都是「暗空公園」的範圍。
-                    　　鳶峰休息站海拔標高2750公尺，有蜿蜓的觀景枕木棧道、賞景平台，擁有絕佳的視野可眺望遠景，也是觀賞高山百合、森氏杜鵑的最佳景點，高海拔無光害的條件讓鳶峰成為夜晚觀星的最佳地點。
-                    　　小風口拔標高約3002公尺，白天為觀察臺灣高山景觀的最佳位置，晚上因該處幾無光害，向來是超級觀星點，每逢月朔前後，都可見到天文同好巨砲的身影。
+              <div class="card ">
+                <img class="border-0" src="{{asset('img/map/南投縣合歡山-1.svg')}}." width="100%" alt="">
+                <h3 class="my-3 text-center">合歡山</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  合歡山部分區域於2019年8月被「國際暗天協會 IDA」選為國際暗空公園從「鳶峰停車場」到「小風口合歡山管理站」，以公路為中心往外各擴展500公尺都是「暗空公園」的範圍。
+                  　　鳶峰休息站海拔標高2750公尺，有蜿蜓的觀景枕木棧道、賞景平台，擁有絕佳的視野可眺望遠景，也是觀賞高山百合、森氏杜鵑的最佳景點，高海拔無光害的條件讓鳶峰成為夜晚觀星的最佳地點。
+                  　　小風口拔標高約3002公尺，白天為觀察臺灣高山景觀的最佳位置，晚上因該處幾無光害，向來是超級觀星點，每逢月朔前後，都可見到天文同好巨砲的身影。
 
-                  </p>
-                </div>
+                </p>
+              </div>
             </div>
             <div class="content content-none" data-type="TWN1174">
-                <div class="card">
-                  <img class="border-0" src="{{asset('img/map/台中都會公園-1.svg')}}" width="100%" alt="">
-                  <h3 class="my-3 text-center">台中都會公園</h3>
-                  <p class="mx-2 mb-1 font-weight-light ">
-                    台中都會公園位於大肚山臺地稜線上，最高點海拔310公尺，視野遼闊，可見全天九成以上的星空，又距市區較遠，光害較少，成為臺中都會區觀星的好地點。園區主要區分為東邊的星象與夜景觀賞區，西邊的日落夕陽和北邊的天文觀星區，並配置各項解說牌，提供遊客認識天文星象。
-                  </p>
-                </div>
+              <div class="card">
+                <img class="border-0" src="{{asset('img/map/台中都會公園-1.svg')}}" width="100%" alt="">
+                <h3 class="my-3 text-center">台中都會公園</h3>
+                <p class="mx-2 mb-1 font-weight-light ">
+                  台中都會公園位於大肚山臺地稜線上，最高點海拔310公尺，視野遼闊，可見全天九成以上的星空，又距市區較遠，光害較少，成為臺中都會區觀星的好地點。園區主要區分為東邊的星象與夜景觀賞區，西邊的日落夕陽和北邊的天文觀星區，並配置各項解說牌，提供遊客認識天文星象。
+                </p>
+              </div>
             </div>
             <div class="content content-none" data-type="TWN1177">
               <div class="card">
                 <img class="border-0" src="{{asset('img/map/台東金剛大道.jpg')}}" width="100%" alt="">
                 <h3 class="my-3 text-center">海天一線</h3>
                 <p class="mx-2 mb-1 font-weight-light ">
-                  金剛大道即為東13縣道，倚著磅礡無匹的金剛山，環眺幅員遼闊的太平洋，傳說中的「海天一線」，在金剛大道上一覽無遺。南北兩側為層次分明的梯田，清晨可看日出升起，白日可吹著山嵐海風，欣賞這條山海交會的夢幻捷徑，稻穗時而隨風搖曳，白鷺鷥凌風飛翔，夜晚更是絕佳的觀星地點，由於金剛大道視野壯闊無邊際，又無光害影響，坐在涼亭中，聽著蟲鳴蛙叫，可自在、無擾的徜徉在滿天星斗之下。</p>
+                  金剛大道即為東13縣道，倚著磅礡無匹的金剛山，環眺幅員遼闊的太平洋，傳說中的「海天一線」，在金剛大道上一覽無遺。南北兩側為層次分明的梯田，清晨可看日出升起，白日可吹著山嵐海風，欣賞這條山海交會的夢幻捷徑，稻穗時而隨風搖曳，白鷺鷥凌風飛翔，夜晚更是絕佳的觀星地點，由於金剛大道視野壯闊無邊際，又無光害影響，坐在涼亭中，聽著蟲鳴蛙叫，可自在、無擾的徜徉在滿天星斗之下。
+                </p>
               </div>
-          </div>
+            </div>
           </div>
         </div>
 

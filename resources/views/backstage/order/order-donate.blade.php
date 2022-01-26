@@ -4,7 +4,7 @@
 @endsection
 @section('main')
     <!-- 新增消息 -->
-    <section class="article" style="width: 100%; height: 100vh;">
+    <section class="article" style="width: 100%;">
         <div class="container">
             <form action="/store" method="POST">
                 @csrf

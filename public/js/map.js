@@ -1,4 +1,4 @@
-//map 
+//map
 let allPath = document.querySelectorAll('.all-path');
 allPath.forEach(function (path) {
   path.addEventListener('click', function (e) {
@@ -18,7 +18,7 @@ const tabBtns = document.querySelectorAll('.tab');
 let guideContents = document.querySelectorAll('.guide-content');
 // guideContents[0].classList.remove('guide-content-none');
 let contents = document.querySelectorAll('.content');
-contents[0].classList.remove('content-none');
+contents[3].classList.remove('content-none');
 
 
 
@@ -52,7 +52,7 @@ function contentsReset() {
 }
 
 
-//map 
+//map
 // let allPath = document.querySelectorAll('.all-path');
 // allPath.forEach(function (path) {
 //   path.addEventListener('click', function (e) {
@@ -106,5 +106,6 @@ function contentsReset() {
 //   })
 
 // });
+
 
 
