@@ -69,7 +69,7 @@
 
   </main>
   <footer>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="{{asset('img/logo.png')}}" width="50px" height="50px" alt="">
