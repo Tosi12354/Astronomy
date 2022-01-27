@@ -317,7 +317,7 @@
             </div>
             <div class="content content-none " data-type="TWN1173">
               <div class="card ">
-                <img class="border-0" src="{{asset('img/map/南投縣合歡山-1.svg')}}." width="100%" alt="">
+                <img class="border-0" src="{{asset('img/map/南投縣合歡山-1.svg')}}" width="100%" alt="">
                 <h3 class="my-3 text-center">合歡山</h3>
                 <p class="mx-2 mb-1 font-weight-light ">
                   合歡山部分區域於2019年8月被「國際暗天協會 IDA」選為國際暗空公園從「鳶峰停車場」到「小風口合歡山管理站」，以公路為中心往外各擴展500公尺都是「暗空公園」的範圍。
